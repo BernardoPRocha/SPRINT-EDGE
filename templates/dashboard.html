@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard MQTT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Dashboard MQTT</h1>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Temperatura:</h5>
+                <p class="card-text" id="temperatura">{{ temperatura }} °C</p>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Umidade:</h5>
+                <p class="card-text" id="umidade">{{ umidade }} %</p>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Luminosidade:</h5>
+                <p class="card-text" id="luminosidade">{{ luminosidade }} lux</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
