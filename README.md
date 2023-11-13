@@ -18,8 +18,11 @@ Clone o Repositório:
  ```bash
    git clone https://github.com/BernardoPRocha/SPRINT-EDGE.git
  ```
+ Execute o Aplicativo:
  ```bash
    python dash.py
-    ```
-
+```
+Acesse o Dashboad: 
+Clique no link que aparece quando executa o app do python. 
+(EX:http://127.0.0.1:5000)
 
